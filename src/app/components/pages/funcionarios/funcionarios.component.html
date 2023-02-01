@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <div class="col" *ngFor="let evento of eventos">
+      <app-card-funcionario></app-card-funcionario>
+    </div>
+  </div>
+</div>
+<div class="container text-center" style="margin-top: 3%;">
+  <button class="btn btn-outline-dark" routerLink="/funcionarios/new">Cadastrar um novo funcionário</button>
+</div>

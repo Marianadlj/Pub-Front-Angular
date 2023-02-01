@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.senha {
+  position: relative;
+  width: 50%;
+  height: 60px;
+  display: inline-block;
+  margin: 2%;
+
+  border-radius: 20px;
+
+  background: #f2f2f2;
+  border-radius: 20px;
+}
+
+.email {
+  position: relative;
+  width: 50%;
+  height: 60px;
+  display: inline-block;
+  margin: 2%;
+
+  border-radius: 20px;
+
+  background: #f2f2f2;
+  border-radius: 20px;
+}
+
+.button {
+  position: relative;
+  height: 60px;
+  width: 54%;
+  border-radius: 50px;
+  display: inline-block;
+
+  background: #dc9916;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}

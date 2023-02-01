@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.pub1 {
+  font-family: "Diplomata SC", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 117px;
+
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+
+  color: #595959;
+  background-color: rgba(13, 13, 13, 0);
+}
+
+.pub2 {
+  font-family: "Diplomata SC", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 117px;
+
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+
+  color: #a6a6a6;
+  background-color: rgba(13, 13, 13, 0);
+}
+
+.pub3 {
+  font-family: "Diplomata SC", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 117px;
+
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+
+  color: #0a0a0a;
+  background-color: rgba(13, 13, 13, 0);
+}
+
+.sub {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.4em;
+  justify-content: flex-start;
+  margin-left: 1.5%;
+
+  color: #dc9916;
+  background-color: rgba(13, 13, 13, 0);
+}
+
+.fundo {
+  position: relative;
+  background-color: #D9D9D9;
+  margin: 5%;
+  padding: 10%;
+  border-radius: 40px;
+}
+
+.content{
+  position: relative;
+  width: 50%;
+  background-color: rgba(13, 13, 13, 0);
+}
+
+.container {
+  position: absolute;
+  width: 70%;
+  margin-left: 40%;
+  margin-top: -20%;
+
+  background-color: rgba(13, 13, 13, 0.897);
+}
+
+.campo {
+  position: relative;
+  width: 50%;
+  height: 60px;
+  display: inline-block;
+  margin: 2%;
+
+  border-radius: 20px;
+
+  background: #f2f2f2;
+  border-radius: 20px;
+}
+.button {
+  position: relative;
+  height: 60px;
+  width: 54%;
+  border-radius: 50px;
+  display: inline-block;
+
+  background: #dc9916;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}

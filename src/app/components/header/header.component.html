@@ -1,0 +1,21 @@
+<header *ngIf="!isLoggedIn">
+  <nav>
+    <img src="https://i.imgur.com/JtBvCLP.jpg">
+    <button class="entrar" routerLink="/login">Entrar</button>
+    <button class="cadastro" routerLink="/signup">Cadastro</button>
+  </nav>
+</header>
+
+
+<header *ngIf="isLoggedIn">
+  <nav>
+    <img src="https://i.imgur.com/JtBvCLP.jpg">
+    <ul>
+      <li class="opcao" routerLink="/eventos">Eventos</li>
+      <li class="opcao" routerLink="/agendamento">Agendamentos</li>
+      <li class="opcao" routerLink="/menu">Menu</li>
+      <li class="opcao" routerLink="/fornecedores">Fornecedores</li>
+      <li class="opcao" routerLink="/funcionarios">Funcionários</li>
+    </ul>
+  </nav>
+</header>

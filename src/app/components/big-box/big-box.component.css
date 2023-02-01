@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+img{
+  width: 100%;
+}
+
+.pub1 {
+  font-family: "Diplomata SC", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 226.862px;
+  line-height: 276px;
+  text-align: center;
+
+  color: #595959;
+  background-color: rgba(13, 13, 13, 0.897);
+}
+
+.pub2 {
+  font-family: "Diplomata SC", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 226.862px;
+  line-height: 276px;
+  text-align: center;
+
+  color: #a6a6a6;
+  background-color: rgba(13, 13, 13, 0.897);
+}
+
+.pub3 {
+  font-family: "Diplomata SC", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 226.862px;
+  line-height: 276px;
+  text-align: center;
+
+  color: #d9d9d9;
+  background-color: rgba(13, 13, 13, 0.897);
+}
+
+.sub {
+  width: 100%;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.6em;
+
+  color: #dc9916;
+  background-color: rgba(13, 13, 13, 0.897);
+}

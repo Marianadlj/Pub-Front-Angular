@@ -1,0 +1,19 @@
+<img src="https://i.imgur.com/T3e1jJx.png" class="img" />
+<div class="titulo">
+  <p class="pub1">PUB</p>
+  <p class="pub2">PUB</p>
+  <p class="pub3">PUB</p>
+</div>
+<h2>EVENTOS</h2>
+<h4>nossa marca</h4>
+<div class="container">
+  <div class="row">
+    <div class="col" *ngFor="let evento of eventos">
+      <app-card></app-card>
+    </div>
+  </div>
+</div>
+<div class="container text-center" style="margin-top: 3%;">
+  <button class="btn btn-outline-dark" routerLink="/eventos/new">Criar um evento</button>
+</div>
+

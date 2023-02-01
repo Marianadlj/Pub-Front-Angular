@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col" *ngFor="let intem of itens">
+      <app-card-menu></app-card-menu>
+    </div>
+  </div>
+</div>
+<div class="container text-center" style="margin-top: 3%;">
+  <button class="btn btn-outline-dark" routerLink="/menu/new-food">Cadastrar novo prato!</button>
+  <button class="btn btn-outline-dark" routerLink="/menu/new-drink" style="margin: 3%;">Cadastrar nova bebida!</button>
+</div>

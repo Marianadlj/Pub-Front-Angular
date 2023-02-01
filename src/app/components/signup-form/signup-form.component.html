@@ -1,0 +1,71 @@
+<form (ngSubmit)="submit()" [formGroup]="loginForm" #formDir="ngForm">
+  <div class="form-group">
+    <label for="nome">Nome:</label>
+    <input
+      type="text"
+      formControlName="nome"
+      placeholder="Coloque aqui seu nome."
+      required
+    />
+
+    <div *ngIf="nome.invalid && formDir.submitted" class="validation-error">
+      <p *ngIf="nome.errors?.['required']">O nome é obrigatório.</p>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input
+      type="email"
+      formControlName="email"
+      placeholder="Coloque um título"
+      required
+    />
+
+    <div *ngIf="email.invalid && formDir.submitted" class="validation-error">
+      <p *ngIf="email.errors?.['required']">O email é obrigatório.</p>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="cpf">CPF:</label>
+    <input
+      type="text"
+      formControlName="cpf"
+      placeholder="Coloque aqui seu cpf."
+      required
+    />
+
+    <div *ngIf="cpf.invalid && formDir.submitted" class="validation-error">
+      <p *ngIf="cpf.errors?.['required']">O CPF é obrigatório.</p>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="Telefone">Celular/Telefone:</label>
+    <input
+      type="text"
+      formControlName="telefone"
+      placeholder="Coloque um telefone."
+      required
+    />
+
+    <div *ngIf="telefone.invalid && formDir.submitted" class="validation-error">
+      <p *ngIf="telefone.errors?.['required']">O telefone é obrigatório.</p>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="senha">Senha:</label>
+    <input
+      type="password" formControlName="senha"
+      placeholder="Digite sua senha">
+    <div
+      *ngIf="senha.invalid && formDir.submitted"
+      class="validation-error"
+    >
+      <p *ngIf="senha.errors?.['required']">A senha é obrigatória.</p>
+    </div>
+  </div>
+  <input type="submit" value="{{ btnText }}" />
+</form>
